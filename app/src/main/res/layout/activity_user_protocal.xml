@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:textSize="25sp"
+            android:clickable="true"
+            android:id="@+id/goback"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户协议和隐私协议"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t本应用仅作为 深圳大学 计算机与软件学院 移动设备交互应用 2021学年 期末大作业提交,演示,报告使用,不会上传至除Github,Blackboard以外的任何平台,也不盈任何利.\n\n\t本应用由开发者独立完成,不含任何不诚信行为.相关功能的实现和技术障碍解决有向CSDN简书stackoverflow博客园等前辈学习."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\t本产品重视用户隐私,在使用该app过程中会使用到联网权限和读取联系人权限,分别用于广播机制和数据共享技术的演示,不会将任何个人信息上传给任何方面(不信你就抓包,用httpCanary,请!)"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n\t开发者:深大20级计科4班 陆威威\n\n\t该app源代码已全部上传至github\n\t主页https://github.com/Leaf-Oct\n\t其他地方署名涂山威威,江户川威威,西行寺威威子均为本人"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/yuyuko_image"
+        android:layout_marginTop="1000dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载原图(service的应用)"
+        android:id="@+id/download"/>
+</LinearLayout>
+</ScrollView>
